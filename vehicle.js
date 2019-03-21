@@ -9,7 +9,8 @@ function Vehicle(obj) {
     this.wheels = 4;
     this.mileage = obj.mileage;
     this.price = obj.price;
-    this.fuel = obj.fuel
+    this.fuel = obj.fuel;
+    this.mpg = obj.mpg;
     this.description = 'A ' + obj.color + ' ' + obj.make + ' ' + obj.model + ' with ' +  obj.mileage + ' miles'
     this.costToDealership = obj.costToDealership;
     this.clean = obj.clean;

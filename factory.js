@@ -35,18 +35,19 @@ var VehicleFactory = (function () {
 // console.log(motorcycle);
 // console.log(electricVehicle);
 
-document.addEventListener('DOMContentLoaded',function(){
-  //initialize a new dealership on the window object
-  //resolve the promise being returned from fetch to gain access to the vehicle-like objects
-  //loop over the vehicle-like objects and pass each of them to processVehicles. You will have to create processVehicles.
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('THE WINDOW OBJECT IS...', window)
+    //initialize a new dealership on the window object
+    //resolve the promise being returned from fetch to gain access to the vehicle-like objects
+    //loop over the vehicle-like objects and pass each of them to processVehicles. You will have to create processVehicles.
 
-  //below is using the fetch API to request the data from the vehicleData.json file
-  //fetch will return a promise you need to resolve and then you will need to run another method to convert the body data to json
-  //remember .json() also returns a promise so be sure to resolve that one as well
+    //below is using the fetch API to request the data from the vehicleData.json file
+    //fetch will return a promise you need to resolve and then you will need to run another method to convert the body data to json
+    //remember .json() also returns a promise so be sure to resolve that one as well
     fetch('./vehicleData.json')
-    })
+
 })
 
-function processVehicles(vehicleObj){
+function processVehicles(vehicleObj) {
 
 }

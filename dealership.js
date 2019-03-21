@@ -1,7 +1,7 @@
 function Dealership(dealershipName,startingBalance){
   //please incorporate some error handling to make sure all of the provided parameters are useful
     this.salesHistory = [];
-    this.balance startingBalance;
+    this.balance = startingBalance;
     this.carLot = [];
     this.dealershipName = dealershipName;
 };

@@ -13,6 +13,7 @@ function Vehicle(obj) {
     this.description = 'A ' + obj.color + ' ' + obj.make + ' ' + obj.model + ' with ' +  obj.mileage + ' miles'
     this.costToDealership = obj.costToDealership;
     this.clean = obj.clean;
+    this.fuel = obj.fuel;
     this.maintenanceAndInsurance = {
         lastServiced: obj.maintenanceAndInsurance.lastServiced,
         lastInsured: obj.maintenanceAndInsurance.lastInsured

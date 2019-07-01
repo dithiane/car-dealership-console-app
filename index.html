@@ -3,9 +3,83 @@
   <head>
     <meta charset="utf-8">
     <title>car-dealership-console-app</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://kit.fontawesome.com/17a997c8fd.js"></script>
   </head>
   <body>
-    <h1>use ⌘ + i if in chrome or f10 in firefox to bring up the web browser's console.</h1>
+    <div class="overlay">
+      <h1>ELENA'S DEALERSHIP</h1>
+    </div>
+    <div class="wrapper">
+      <div class="logo">ELENA's</div>
+      <div class="nav">
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+        </ul>
+      </div>
+      <div class="social-media">
+          <ul>
+            <li><i class="fab fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fab fa-instagram" aria-hidden="true"></i></li>
+            <li><i class="fab fa-twitter" aria-hidden="true"></i></li>
+          </ul>
+      </div>
+      <div class= "side-strip">
+        <span>BEYONG IMAGES</span>
+      </div>
+      <div class="header">
+        <h1>use ⌘ + i if in chrome or f10 in firefox to bring up the web browser's console.</h1>
+        
+
+      <button id= "activate">EXPLORE</button>
+      </div>
+      <div class="box">
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Sell Vehicle</h4>
+            <button id= "sellVehicle">OK</button>
+          </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Check Insurance</h4>
+            <button id= "checkInsurance">OK</button>
+        </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Renew Insurance</h4>
+            <button id= "renewInsurance">OK</button>
+        </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Refuel</h4>
+            <button id= "refuel">OK</button>
+        </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Sales Pitch</h4>
+            <button id= "salesPitch">OK</button>
+        </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Test Drive</h4>
+            <button id= "selectCarForTestDrive">OK</button>
+        </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>MaintenanceCheck</h4>
+            <button id= "maintenanceCheck">OK</button>
+        </div>
+        <div class="sub-box">
+            <i class="fas fa-car"></i>
+            <h4>Maintenance</h4>
+            <button id= "maintenance">OK</button>
+        </div>
+      </div>
+    </div>
+   <!-- <h1>use ⌘ + i if in chrome or f10 in firefox to bring up the web browser's console.</h1>-->
+
     <script src="utils.js"></script>
     <script src="vehicle.js" charset="utf-8"></script>
     <script src="car.js" charset="utf-8"></script>
@@ -14,5 +88,6 @@
     <script src="ev.js"></script>
     <script src="factory.js" charset="utf-8"></script>
     <script src="dealership.js"></script>
+    <script src="animation.js"></script>
   </body>
 </html>

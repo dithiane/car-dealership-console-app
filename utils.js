@@ -13,7 +13,9 @@ Array.prototype.getCountByKeyValue = function(key,value){
 function getRandomPrice(min, max) {
     return (Math.random() * (max - min) + min).toFixed(2);
 };
-
+function getRandomNum(min, max) {
+    return (Math.random() * (max - min) + min);
+};
 //helper function for displaying difference in 2 dates provided
 var dateDiff = {
     inDays: function (d1, d2) {

@@ -1,7 +1,7 @@
 function Car(obj) {
     Vehicle.call(this,obj);
     this.type = 'car';
-    this.mpg = obj.mpg;
+    this.mpg = Number(obj.mpg);
     this.fuelCapacity = 16;
 };
 

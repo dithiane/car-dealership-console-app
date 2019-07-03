@@ -131,7 +131,7 @@ var VehicleFactory = (function() {
     });
   document.getElementById("selectCarForTestDrive").addEventListener("click", function() {
     var make = subaruDealership.carLot[25].make;
-    var model =subaruDealership.carLot[25].model;
+    var model = subaruDealership.carLot[25].model;
     var year = subaruDealership.carLot[25].year;
     console.log(make + " " + model + " " + year );
     console.log(subaruDealership.selectCarForTestDrive(make,model,year));

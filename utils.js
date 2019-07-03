@@ -9,6 +9,16 @@ Array.prototype.getCountByKeyValue = function(key,value){
     return valueCount;
 };
 
+// function duplicates(a,el) {
+//     var dupArray = [];
+//     for (var i =0; i < a.length; i++){
+//       if(a[i] === el ){
+//         dupArray.push(el);
+//       }
+//     }
+//     return dupArray.length;
+//   }
+
 //helper function to generate a random number with 2 decimal places between the provided parameters
 function getRandomPrice(min, max) {
     return (Math.random() * (max - min) + min).toFixed(2);
